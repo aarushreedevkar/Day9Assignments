@@ -89,7 +89,18 @@ namespace AddressBook
             }
         
         }
-       
+        public void DeleteContact(string name)
+        {
+            if (addressBook.ContainsKey(name))
+            {
+                addressBook.Remove(name);
+                Console.WriteLine("\nDeleted Succesfully.\n");
+            }
+            else
+            {
+                Console.WriteLine("\nIt Is Not Found.\n");
+            }
+        }
 
 
     }
