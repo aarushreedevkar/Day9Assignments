@@ -15,7 +15,6 @@
             Console.WriteLine(person.getzip());
             Console.WriteLine(person.getphone());
             Console.WriteLine(person.getemail());
-            //contacts.FirstName = Aaradhya
             Console.Read();
             }
     }
